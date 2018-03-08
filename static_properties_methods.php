@@ -16,6 +16,8 @@ class User {
 	}
 }
 
+
+/*
 $password = 'pass';
 
 if(User::validatePassword($password)) {
@@ -23,3 +25,5 @@ if(User::validatePassword($password)) {
 } else {
 	echo "Password is NOT valid";
 }
+*/
+echo User::$minPassLength;
